@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - (Changes since last release will be listed here)
 
+### Changed
+
+- Dockerfile: use node:20-slim (Debian) instead of Alpine so Next.js SWC binary (glibc) loads correctly
+
 ## [0.1.0-beta.1] - 2025-02-15
 
 First beta release. Part of RompMusic 0.1.0-beta.1.
