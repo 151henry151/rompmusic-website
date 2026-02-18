@@ -10,7 +10,7 @@ export default function Home() {
           <span className="text-xl font-semibold">RompMusic</span>
         </div>
         <nav className="flex gap-4 sm:gap-6 items-center">
-          <Link href="/app" className="text-[#4a9eff] hover:underline">Open App</Link>
+          <a href="https://demo.rompmusic.com/client/" className="text-[#4a9eff] hover:underline">Open App</a>
           <Link href="/server" className="px-4 py-2 rounded-lg bg-[#1a1a1a] hover:bg-[#252525]">Server Admin</Link>
         </nav>
       </header>
@@ -24,7 +24,7 @@ export default function Home() {
         </p>
         <div className="flex flex-col gap-4">
           <div className="flex flex-wrap gap-4">
-            <Link href="/app" className="px-6 py-3 rounded-lg bg-[#4a9eff] hover:bg-[#3a8eef] font-medium">Launch Web App</Link>
+            <a href="https://demo.rompmusic.com/client/" className="px-6 py-3 rounded-lg bg-[#4a9eff] hover:bg-[#3a8eef] font-medium">Launch Web App</a>
             <Link href="/docs/install" className="px-6 py-3 rounded-lg border border-[#333] hover:border-[#555]">Self-Host Guide</Link>
           </div>
           <div className="flex flex-wrap gap-4 items-center">

@@ -17,7 +17,7 @@ export default function TOSPage() {
           </Link>
           <div className="flex gap-6">
             <Link href="/docs" className="text-[#888] hover:text-white transition">Docs</Link>
-            <Link href="/app" className="text-[#4a9eff] hover:underline">Open App</Link>
+            <a href="https://demo.rompmusic.com/client/" className="text-[#4a9eff] hover:underline">Open App</a>
             <Link href="/privacy" className="text-[#888] hover:text-white transition">Privacy Policy</Link>
           </div>
         </nav>
