@@ -1,10 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       <header className="border-b border-[#222] px-6 py-4 flex justify-between items-center">
-        <span className="text-xl font-semibold">RompMusic</span>
+        <div className="flex items-center gap-3">
+          <Image src="/logo.png" alt="RompMusic" width={32} height={32} priority />
+          <span className="text-xl font-semibold">RompMusic</span>
+        </div>
         <nav className="flex gap-4 sm:gap-6 items-center">
           <Link href="/app" className="text-[#4a9eff] hover:underline">Open App</Link>
           <Link href="/server" className="px-4 py-2 rounded-lg bg-[#1a1a1a] hover:bg-[#252525]">Server Admin</Link>
