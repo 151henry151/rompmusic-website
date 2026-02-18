@@ -15,6 +15,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Dockerfile: use node:20-slim (Debian) instead of Alpine so Next.js SWC binary (glibc) loads correctly
 
+## [0.1.0-beta.2] - 2026-02-16
+
+### Added
+
+- Logo and app icon (favicon) from project logo.
+
 ## [0.1.0-beta.1] - 2025-02-15
 
 First beta release. Part of RompMusic 0.1.0-beta.1.
@@ -30,5 +36,6 @@ First beta release. Part of RompMusic 0.1.0-beta.1.
 
 - Docker build (create `public` directory for Next.js standalone output)
 
-[Unreleased]: https://github.com/151henry151/rompmusic-website/compare/v0.1.0-beta.1...HEAD
+[Unreleased]: https://github.com/151henry151/rompmusic-website/compare/v0.1.0-beta.2...HEAD
+[0.1.0-beta.2]: https://github.com/151henry151/rompmusic-website/releases/tag/v0.1.0-beta.2
 [0.1.0-beta.1]: https://github.com/151henry151/rompmusic-website/releases/tag/v0.1.0-beta.1
