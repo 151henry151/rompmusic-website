@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Terms of Service - RompMusic",
@@ -10,7 +11,8 @@ export default function TOSPage() {
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       <header className="border-b border-[#222] px-6 py-4">
         <nav className="max-w-3xl mx-auto flex justify-between items-center">
-          <Link href="/" className="text-xl font-semibold hover:text-[#4a9eff] transition">
+          <Link href="/" className="flex items-center gap-2 text-xl font-semibold hover:text-[#4a9eff] transition">
+            <Image src="/logo.png" alt="" width={28} height={28} />
             RompMusic
           </Link>
           <div className="flex gap-6">
