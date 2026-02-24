@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- (Changes since last release will be listed here)
+- **Documentation** — New Overview page (why RompMusic, components). Client app setup guide: web app usage, first-run server URL on Android/iOS, changing server URL in Settings, hosting the web client (Docker, EXPO_PUBLIC_API_URL, EXPO_PUBLIC_WEB_BASE_URL), logging in. Contributing page: code of conduct, reporting bugs, suggesting features, code contributions, repo structure. Docs landing page lists all four doc sections with descriptions. Install guide links to Client app setup for connecting the client.
 
 ### Changed
 

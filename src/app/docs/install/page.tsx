@@ -100,7 +100,12 @@ docker compose up -d`}
 
           <h2 className="text-xl font-semibold text-white pt-4">Connect the client</h2>
           <p>
-            Point the client app at your server URL (e.g. <code className="bg-[#222] px-1 rounded">https://music.yourdomain.com</code>) and log in with your admin or invited user account.
+            Point the client app at your server URL (e.g. <code className="bg-[#222] px-1 rounded">https://music.yourdomain.com</code>) and log in with your admin or invited user account. For step-by-step instructions (web app, Android, iOS, first-run server URL, and hosting the web client yourself), see the <Link href="/docs/client-setup" className="text-[#4a9eff] hover:underline">Client app setup</Link> guide.
+          </p>
+
+          <h2 className="text-xl font-semibold text-white pt-4">API reference</h2>
+          <p>
+            Once your server is running, the OpenAPI docs are available at <code className="bg-[#222] px-1 rounded">/api/docs</code> (Swagger) and <code className="bg-[#222] px-1 rounded">/api/redoc</code> (ReDoc)—e.g. <a href="https://rompmusic.com/api/docs" target="_blank" rel="noopener noreferrer" className="text-[#4a9eff] hover:underline">rompmusic.com/api/docs</a>. Use your own server URL when self-hosting.
           </p>
 
           <p className="pt-4">
