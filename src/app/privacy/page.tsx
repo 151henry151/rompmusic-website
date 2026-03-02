@@ -72,7 +72,8 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">6. Your Rights</h2>
             <p>
-              Because your data is on your own server, you may request access, correction, or deletion from your server administrator. For GDPR and similar regulations, the data controller is the operator of your RompMusic instance, not the RompMusic project.
+              Because your data is on your own server, you may request access, correction, or deletion from your server administrator. For GDPR and similar regulations, the data controller is the operator of your RompMusic instance, not the RompMusic project. To request <strong>account and data deletion</strong>, see our{" "}
+              <Link href="/delete-account" className="text-[#4a9eff] hover:underline">Delete account and data</Link> page for step-by-step instructions.
             </p>
           </section>
 
