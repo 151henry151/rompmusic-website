@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - (Changes since last release will be listed here)
 
+## [0.1.10] - 2026-03-07
+
+### Changed
+
+- Synchronize website version metadata with umbrella/client `0.1.10` release references.
+- Set `package.json` and `package-lock.json` version to `0.1.10`.
+
 ## [0.1.9] - 2026-03-06
 
 ### Changed
@@ -105,7 +112,8 @@ First beta release. Part of RompMusic 0.1.0-beta.1.
 
 - Create the `public` directory during Docker build so Next.js standalone output includes static assets.
 
-[Unreleased]: https://github.com/151henry151/rompmusic-website/compare/v0.1.9...HEAD
+[Unreleased]: https://github.com/151henry151/rompmusic-website/compare/v0.1.10...HEAD
+[0.1.10]: https://github.com/151henry151/rompmusic-website/releases/tag/v0.1.10
 [0.1.9]: https://github.com/151henry151/rompmusic-website/releases/tag/v0.1.9
 [0.1.8]: https://github.com/151henry151/rompmusic-website/releases/tag/v0.1.8
 [0.1.7]: https://github.com/151henry151/rompmusic-website/releases/tag/v0.1.7
