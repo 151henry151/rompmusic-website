@@ -18,7 +18,7 @@ export default function ClientSetupPage() {
       <main className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl font-bold mb-8">Client app setup</h1>
         <div className="prose prose-invert max-w-none space-y-6 text-[#ccc]">
-          <p>The RompMusic client runs on Android, iOS, and web. You can use the official web app and set your server URL in the app, or host the web client yourself and optionally preconfigure the server URL at build time.</p>
+          <p>The RompMusic client runs on Android, iOS, and web. You can use the official web app and set your server URL in the app, or host the web client yourself and optionally preconfigure the server URL at build time. The app includes per-user playlists: create playlists, add tracks from the library or from track/album menus, reorder and remove tracks, and play a playlist from the Playlists screen.</p>
           <h2 className="text-xl font-semibold text-white pt-4">Using the web app</h2>
           <p>Use <a href="https://rompmusic.com/app" target="_blank" rel="noopener noreferrer" className="text-[#4a9eff] hover:underline">rompmusic.com/app</a>. It uses the demo server by default. To use your own server: open <strong>Settings</strong>, then <strong>Server URL</strong>, enter your server address (e.g. <code className="bg-[#222] px-1 rounded">https://music.yourdomain.com</code>), and save. You will be logged out and can then sign in to your server.</p>
           <h2 className="text-xl font-semibold text-white pt-4">First run (Android and iOS)</h2>

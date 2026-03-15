@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - (Changes since last release will be listed here)
 
+## [0.1.11] - 2026-03-14
+
+### Changed
+
+- Synchronize website version metadata with umbrella/client `0.1.11` release references.
+- Document playlists in client setup guide.
+
 ## [0.1.10] - 2026-03-07
 
 ### Changed
