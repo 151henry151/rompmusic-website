@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - (Changes since last release will be listed here)
 
+### Changed
+
+- Document nginx reverse-proxy client-route redirects in install guide (/playlists, /album/*, /track/*, etc. → /app/...).
+
 ## [0.1.11] - 2026-03-14
 
 ### Changed

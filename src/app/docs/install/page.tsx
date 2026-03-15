@@ -103,6 +103,11 @@ docker compose up -d`}
             Point the client app at your server URL (e.g. <code className="bg-[#222] px-1 rounded">https://music.yourdomain.com</code>) and log in with your admin or invited user account. For step-by-step instructions (web app, Android, iOS, first-run server URL, and hosting the web client yourself), see the <Link href="/docs/client-setup" className="text-[#4a9eff] hover:underline">Client app setup</Link> guide.
           </p>
 
+          <h2 className="text-xl font-semibold text-white pt-4">Reverse proxy (nginx)</h2>
+          <p>
+            If you put nginx (or another reverse proxy) in front of the stack, proxy <code className="bg-[#222] px-1 rounded">/api</code> and <code className="bg-[#222] px-1 rounded">/server</code> to the backend, and <code className="bg-[#222] px-1 rounded">/app/</code> to the web client. So that direct links and page reloads work, redirect client routes that omit the <code className="bg-[#222] px-1 rounded">/app</code> prefix to the app: <code className="bg-[#222] px-1 rounded">/playlists</code>, <code className="bg-[#222] px-1 rounded">/history</code>, <code className="bg-[#222] px-1 rounded">/settings</code>, and <code className="bg-[#222] px-1 rounded">/album/*</code>, <code className="bg-[#222] px-1 rounded">/track/*</code>, <code className="bg-[#222] px-1 rounded">/artist/*</code>, <code className="bg-[#222] px-1 rounded">/playlist/*</code> should redirect to <code className="bg-[#222] px-1 rounded">/app/playlists</code>, <code className="bg-[#222] px-1 rounded">/app/album/...</code>, etc. Otherwise those paths hit the website and return 404.
+          </p>
+
           <h2 className="text-xl font-semibold text-white pt-4">API reference</h2>
           <p>
             Once your server is running, the OpenAPI docs are available at <code className="bg-[#222] px-1 rounded">/api/docs</code> (Swagger) and <code className="bg-[#222] px-1 rounded">/api/redoc</code> (ReDoc)—e.g. <a href="https://rompmusic.com/api/docs" target="_blank" rel="noopener noreferrer" className="text-[#4a9eff] hover:underline">rompmusic.com/api/docs</a>. Use your own server URL when self-hosting.
